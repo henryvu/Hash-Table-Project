@@ -7,6 +7,9 @@ public class AdditiveHashTable<K,V> implements HashTable<K, V>{
     @SuppressWarnings("unchecked")
     public AdditiveHashTable(int size) {
         Object arr = new Object[size];
+        
+        //Type edu.csupomona.cs.cs241.prog3.Node does not take parameters
+        //what does it mean
         array = (Node<V>[]) arr;
     }
     
